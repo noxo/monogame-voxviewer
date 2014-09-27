@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <CurrentDeployCmdId>256</CurrentDeployCmdId>
+    <CurrentDeployID>311C6FD4-73A9-40CB-81A6-BD7EE898ADD4</CurrentDeployID>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <CurrentDeployCmdId>256</CurrentDeployCmdId>
+    <CurrentDeployID>311C6FD4-73A9-40CB-81A6-BD7EE898ADD4</CurrentDeployID>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{C089C8C0-30E0-4E22-80C0-CE093F111A43}">
+        <SilverlightMobileCSProjectFlavor>
+          <FullDeploy>True</FullDeploy>
+          <DebuggerType>Managed</DebuggerType>
+          <DebuggerAgentType>Managed</DebuggerAgentType>
+          <Tombstone>False</Tombstone>
+        </SilverlightMobileCSProjectFlavor>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
